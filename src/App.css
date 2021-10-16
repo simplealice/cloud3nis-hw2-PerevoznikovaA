@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  color: rgb(119, 221, 2);
+}
+
+button {
+  margin: auto auto;
+  text-align: center;
+  padding: 16px 7px;
+  width: 100px;
+  border: none;
+  outline: none;
+  background: rgb(119, 221, 2);
+  color: rgb(255, 255, 255);
+}
+
+.item-todo {
+  padding: 14px;
+  width: 375px;
+  text-align: left;
+  margin-top: 15px;
+  background: rgb(119, 221, 2);;
+  color: #fff;
+  border: none;
+}
+
+.item-todo .item-text {
+  display: inline-block;
+}
+
+.item-todo .item-completed {
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+  position: relative;
+  left: -24px;
+  bottom: 2px;
+}
+
+.item-todo .item-delete {
+  display: inline-block;
+  float: right;
+  font-size: 18px;
+  position: relative;
+  left: -4px;
+  bottom: 2px;
+}
+
+input {
+  padding: 14px;
+  width: 250px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 15px;
+  padding: 14px 32px 14px 16px;
+  border: 2px solid rgb(119, 221, 2);
+  outline: none;
+  background: transparent;
+}
+
+.strike {
+  text-decoration: line-through;
+}
